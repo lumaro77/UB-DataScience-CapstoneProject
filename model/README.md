@@ -21,11 +21,11 @@ General steps of the solution will be:
 
 ## References
 
-https://github.com/DeepLearnPhysics/pytorch-resnet-example
-https://www.run.ai/guides/deep-learning-for-computer-vision/pytorch-resnet
-https://pyimagesearch.com/2021/07/19/pytorch-training-your-first-convolutional-neural-network-cnn/
-https://towardsdatascience.com/convolutional-neural-network-for-image-classification-with-implementation-on-python-using-pytorch-7b88342c9ca9
-https://docs.microsoft.com/en-us/windows/ai/windows-ml/tutorials/pytorch-train-model
-https://pytorch.org/tutorials/beginner/basics/buildmodel_tutorial.html
-https://github.com/pytorch/tutorials
-https://github.com/pytorch/pytorch
+- https://github.com/DeepLearnPhysics/pytorch-resnet-example
+- https://www.run.ai/guides/deep-learning-for-computer-vision/pytorch-resnet
+- https://pyimagesearch.com/2021/07/19/pytorch-training-your-first-convolutional-neural-network-cnn/
+- https://towardsdatascience.com/convolutional-neural-network-for-image-classification-with-implementation-on--python-using-pytorch-7b88342c9ca9
+- https://docs.microsoft.com/en-us/windows/ai/windows-ml/tutorials/pytorch-train-model
+- https://pytorch.org/tutorials/beginner/basics/buildmodel_tutorial.html
+- https://github.com/pytorch/tutorials
+- https://github.com/pytorch/pytorch
