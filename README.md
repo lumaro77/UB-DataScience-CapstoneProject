@@ -17,7 +17,7 @@ When training:
 - **Retrain:** for a training from scrath set up ```retrain=False```, to resume a previous training set up ```retrain=True```
 - **Epochs:** set up ```num_epochs```, to the desired number of epochs to train or retrain
 When Evaluating:
-- Set up ```evaluating=True``` to make an evaluation of a previous training.
+- **Evaluation:** Set up ```evaluating=True``` to make an evaluation of a previous training.
 
 ## Report
 
