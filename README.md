@@ -8,9 +8,9 @@ Notebook with the developed tests is available on **Collab_Notebook/** folder. T
 ### Available CNN models
 
 3 models are available to perform train, re-train or a posterior evaluation.
-- Set up ```mode01=True``` for a self-CNN model
-- Set up ```mode11=True``` for a ResNet based CNN model 
-- Set up ```mode11=True``` for a DenseNet based CNN model 
+- Set up ```mode01=True``` for a **self-CNN** model
+- Set up ```mode11=True``` for a **ResNet based CNN** model 
+- Set up ```mode11=True``` for a **DenseNet based CNN** model 
 
 ### Training and Evaluating modes
 When training:
