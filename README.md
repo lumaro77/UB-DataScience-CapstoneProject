@@ -1,7 +1,7 @@
 # PostGraduated-DataScience-CapstoneProject
 Lucas Martínez personal Capstone Project for the UB Data Science Postgraduated course 2021-2022. http://www.ub.edu/datascience/postgraduate/
 
-Notebook with the developed tests is available on **Collab_Notebook/** folder. The notebook is configured to be run in [Collab](https://colab.research.google.com/). Persistence is ensured via the google-drive asociated with the Collab user.
+Notebook with the developed tests is available on **Collab_Notebook/(/Collab_Notebook/)** folder. The notebook is configured to be run in [Collab](https://colab.research.google.com/). Persistence is ensured via the google-drive asociated with the Collab user.
 
 ## Quick user guide
 
