@@ -19,6 +19,6 @@ when evaluating:
 - **Evaluation:** Set up ```evaluating=True``` to make an evaluation of a previous training.
 
 ## Report
-Report will be available at: https://lumaro77.github.io/CapstoneProject-UBPostGraduated-DataScience/
+Report will be available at: https://lumaro77.github.io/UB-DataScience-CapstoneProject/
 
 Barcelona, June 2022.
