@@ -1,4 +1,4 @@
 # UB-DataScience-CapstoneProject
-Introducción al Data Science y al Machine Learning. http://www.ub.edu/datascience/postgraduate/
+Introducción al Data Science y al Machine Learning.
 
-Web version at: https://lumaro77.github.io/UB-DataScience-CapstoneProject/index.html
+La cápsula endoscópica. Web version at: https://lumaro77.github.io/UB-DataScience-CapstoneProject/index.html
