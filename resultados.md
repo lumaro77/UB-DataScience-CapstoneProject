@@ -1,4 +1,4 @@
-#### [Atrás](datos.html) -- [Índice](index.html) -- [Adelante](conclusiones.html)
+#### [Atrás](datos.md) -- [Índice](index.md) -- [Adelante](conclusiones.md)
 ***
 
 # Resultados
@@ -6,4 +6,4 @@
 Bla, bla, bla...
 
 ***
-#### [Atrás](datos.html) -- [Índice](index.html) -- [Adelante](conclusiones.html)
+#### [Atrás](datos.md) -- [Índice](index.md) -- [Adelante](conclusiones.md)

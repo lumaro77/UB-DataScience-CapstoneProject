@@ -1,4 +1,4 @@
-#### [Atrás](metodologia.html) -- [Índice](index.html) -- [Adelante](resultados.html)
+#### [Atrás](metodologia.md) -- [Índice](index.md) -- [Adelante](resultados.md)
 ***
 
 # Datos
@@ -6,4 +6,4 @@
 Bla, bla, bla...
 
 ***
-#### [Atrás](metodologia.html) -- [Índice](index.html) -- [Adelante](resultados.html)
+#### [Atrás](metodologia.md) -- [Índice](index.md) -- [Adelante](resultados.md)
