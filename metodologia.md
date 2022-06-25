@@ -1,9 +1,9 @@
-#### [Atrás](index.ms) -- [Índice](index.ms) -- [Adelante](metodologia.ms)
+#### [Atrás](introduccion.ms) -- [Índice](index.ms) -- [Adelante](datos.ms)
 ***
 
-# Introduccion
+# Metodología
 
 Bla, bla, bla...
 
 ***
-#### [Atrás](index.ms) -- [Índice](index.ms) -- [Adelante](metodologia.ms)
+#### [Atrás](introduccion.ms) -- [Índice](index.ms) -- [Adelante](datos.ms)
