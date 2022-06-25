@@ -1,4 +1,4 @@
-#### [Atrás](conclusiones.ms) -- [Índice](index.ms)
+#### [Atrás](conclusiones.html) -- [Índice](index.html)
 ***
 
 # Contacto
@@ -6,4 +6,4 @@
 Bla, bla, bla...
 
 ***
-#### [Atrás](conclusiones.ms) -- [Índice](index.ms)
+#### [Atrás](conclusiones.html) -- [Índice](index.html)
