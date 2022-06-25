@@ -1,4 +1,4 @@
-#### [Atrás](index.html) -- [Índice](index.html) -- [Adelante](metodologia.html)
+#### [Atrás](index.md) -- [Índice](index.md) -- [Adelante](metodologia.md)
 ***
 
 # Introduccion
