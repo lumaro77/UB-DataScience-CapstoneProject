@@ -3,11 +3,28 @@
 
 # Metodología
 
+## Data Augmentation
+
 ## Red convolucional simple
 
-## Transferencia de conocimiento (ResNet y DenseNet)
+![convoRGB_plot](convoRGB/convoRGB_plot.png)
 
-## Data Augmentation
+![convoRGB_summary](convoRGB/convoRGB_summary.png)
+
+
+## Transferencia de conocimiento con ResNet
+
+![resNet_plot](resNet/resNet_plot.png)
+
+![resNet_summary](resNet/resNet_summary.png)
+
+
+## Transferencia de conocimiento con DenseNet
+
+![denseNet_plot](denseNet/denseNet_plot.png)
+
+![denseNet_summary](denseNet/denseNet_summary.png)
+
 
 ## Entorno de ejecución Google Colab
 
