@@ -28,5 +28,9 @@
 
 ## Entorno de ejecución Google Colab
 
+![entorno](colab/entorno.png)
+
+![gpu](colab/gpu.png)
+
 ***
 #### [Atrás](introduccion.md) -- [Índice](index.md) -- [Adelante](datos.md)
