@@ -5,6 +5,8 @@
 
 ## El Kvasir-Capsule datase
 
+![smiley](datos/descarga.png){:height="30px" width="50px"}
+
 ## Análisis del dataset
 
 ***
