@@ -17,6 +17,10 @@
 | Tamaño de batch | 128 | 128 | 128 |
 | Número de epochs | 1.000 | 3.000 | 3.000 |
 
+## Tipos de callbacks
+
+- Bla, bla, bla...
+
 ## Red convolucional simple
 
 ![convoRGB_plot](convoRGB/convoRGB_plot.png)
