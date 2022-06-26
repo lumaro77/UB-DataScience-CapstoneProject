@@ -35,5 +35,9 @@
 | Ulcer | 854 |
 
 ![Histograma](datos/hisotgrama-datos.png)
+
+## Datos de entrenamiento y validación
+![entrena-valida](datos/entrena-valida.png)
+
 ***
 #### [Atrás](metodologia.md) -- [Índice](index.md) -- [Adelante](resultados.md)

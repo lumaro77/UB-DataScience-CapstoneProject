@@ -11,4 +11,4 @@
 
 ***
 Proyecto presentado por **Lucas Martínez Rodrigo**.
-El código fuente para reproducir estos experimentos se encuentra disponible en [gitHub](https://github.com/lumaro77/UB-DataScience-CapstoneProject).
+El código fuente para reproducir estos experimentos se encuentra disponible en [github](https://github.com/lumaro77/UB-DataScience-CapstoneProject).
