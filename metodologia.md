@@ -12,7 +12,7 @@ El primer modelo empleado, que denominaré, ConvoRGB está formado por dos capas
 ![convoRGB_plot](convoRGB/convoRGB_plot.png)
 
 La función de las capas es la siguiente:
-- Convolucional: son capas que aprenden a reconocer patrones geométricos 2D como formas y texturas, y características de las imágenes como colores, contraste, etc.
+- **Convolucional**: son capas que aprenden a reconocer patrones geométricos 2D como formas y texturas, y características de las imágenes como colores, contraste, etc.
 - **Normalización**: mejora el entrenamiento al volver a centrar y escalar la salida.
 - **Pooling**: reduce la cantidad de datos tomando uno (por ejemplo el máximo) como representación de un grupo de ellos.
 - **Flatten**: esta capa permite reorganizar los datos de las capas convolucionales para que entren a una densa.
