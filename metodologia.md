@@ -13,11 +13,11 @@ El primer modelo empleado, que denominaré, ConvoRGB está formado por dos capas
 
 La función de las capas es la siguiente:
 - Convolucional: son capas que aprenden a reconocer patrones geométricos 2D como formas y texturas, y características de las imágenes como colores, contraste, etc.
-- Normalización: mejora el entrenamiento al volver a centrar y escalar la salida.
-- Pooling: reduce la cantidad de datos tomando uno (por ejemplo el máximo) como representación de un grupo de ellos.
-- Flatten: esta capa permite reorganizar los datos de las capas convolucionales para que entren a una densa.
-- Densa: es una capa convencional de neuronas que aprende a partir de los resultados de las convolucionales.
-- Dropout: tiene por misión desconectar durante el entrenamiento algunas conexiones, para evitar el sobreentrenamiento o overfitting.
+- **Normalización**: mejora el entrenamiento al volver a centrar y escalar la salida.
+- **Pooling**: reduce la cantidad de datos tomando uno (por ejemplo el máximo) como representación de un grupo de ellos.
+- **Flatten**: esta capa permite reorganizar los datos de las capas convolucionales para que entren a una densa.
+- **Densa**: es una capa convencional de neuronas que aprende a partir de los resultados de las convolucionales.
+- **Dropout**: tiene por misión desconectar durante el entrenamiento algunas conexiones, para evitar el sobreentrenamiento o overfitting.
 
 ![convoRGB_summary](convoRGB/convoRGB_summary.png)
 
@@ -89,8 +89,8 @@ Para los modelos propuestos estos son los parámetros empleados:
 Los callbacks son funciones que se ejecutan tras cada ejecución y que permiten diversos servicios o funcionalidades.
 
 En estre trabajo se han definido algunos callbacks entre los que destacan:
-- CSVLogger: registra los parámetros del entrenamiento en formato estándar, permitiendo gráficas o análisis posterior.
-- ModelCheckpoint: hace un seguimiento del entrenamiento y guarda los parámetros del modelo cuando se obtiene un mejor resultado que previamente.
+- **CSVLogger**: registra los parámetros del entrenamiento en formato estándar, permitiendo gráficas o análisis posterior.
+- **ModelCheckpoint**: hace un seguimiento del entrenamiento y guarda los parámetros del modelo cuando se obtiene un mejor resultado que previamente.
 
 El primero permite realizar gráficas, mientras que el segundo permite detener y reanudar o extender el entrenamiento.
 
