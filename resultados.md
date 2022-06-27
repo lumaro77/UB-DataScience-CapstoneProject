@@ -1,4 +1,4 @@
-#### [Atrás](datos.md) -- [Índice](index.md) -- [Adelante](conclusiones.md)
+#### [Atrás](datos.md) -- [Índice](index.md) -- [Siguiente](conclusiones.md)
 ***
 
 # Resultados
@@ -48,4 +48,4 @@
 ![Matriz_confusion_1](denseNet/denseNet_matriz_confusion_1.png)
 ![Matriz_confusion_2](denseNet/denseNet_matriz_confusion_2.png)
 ***
-#### [Atrás](datos.md) -- [Índice](index.md) -- [Adelante](conclusiones.md)
+#### [Atrás](datos.md) -- [Índice](index.md) -- [Siguiente](conclusiones.md)

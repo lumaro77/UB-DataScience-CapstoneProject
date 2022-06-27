@@ -1,4 +1,4 @@
-#### [Atrás](metodologia.md) -- [Índice](index.md) -- [Adelante](resultados.md)
+#### [Atrás](metodologia.md) -- [Índice](index.md) -- [Siguiente](resultados.md)
 ***
 
 # Datos
@@ -40,4 +40,4 @@
 ![entrena-valida](datos/entrena-valida.png)
 
 ***
-#### [Atrás](metodologia.md) -- [Índice](index.md) -- [Adelante](resultados.md)
+#### [Atrás](metodologia.md) -- [Índice](index.md) -- [Siguiente](resultados.md)
