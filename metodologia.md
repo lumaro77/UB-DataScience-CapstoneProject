@@ -10,6 +10,7 @@ A continuación se describen las redes neuronales y principales características
 El primer modelo empleado, que denominaré, ConvoRGB está formado por dos capas convolucionales, seguidas de normalización y pooling. A continuación se realiza un flatten y se pasa por una capa densa y se alcanza la capa de salida a través de un dropout.
 
 ![convoRGB_plot](convoRGB/convoRGB_plot.png)
+
 La función de las capas es la siguiente:
 - Convolucional: son capas que aprenden a reconocer patrones geométricos 2D como formas y texturas, y características de las imágenes como colores, contraste, etc.
 - Normalización: mejora el entrenamiento al volver a centrar y escalar la salida.
@@ -19,6 +20,7 @@ La función de las capas es la siguiente:
 - Dropout: tiene por misión desconectar durante el entrenamiento algunas conexiones, para evitar el sobreentrenamiento o overfitting.
 
 ![convoRGB_summary](convoRGB/convoRGB_summary.png)
+
 Como puede observarse la red tiene algo más de 2 millones de parámetros para ser entrenados, dado que no hay inicialización previa.
 
 ## Transferencia de aprendizaje
@@ -73,7 +75,6 @@ El ritmo de entrenamiento o learning rate es el paso empleado para modificar los
 Además, es posible configurar el tamaño de batch (número de imágenes que se procesarán simultáneamente) y el número de pasos o epochs de entrenamiento.
 
 Para los modelos propuestos estos son los parámetros empleados:
-
 
 | Parámetro | Red convolucional simple | Red basada en ResNet| Red basada en DenseNet |
 | ------------- | ------------- | ------------- | ------------- |
