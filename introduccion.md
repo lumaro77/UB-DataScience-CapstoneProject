@@ -1,4 +1,4 @@
-#### [Atrás](index.md) -- [Índice](index.md) -- [Adelante](metodologia.md)
+#### [Atrás](index.md) -- [Índice](index.md) -- [Siguiente](metodologia.md)
 ***
 
 # Introduccion
@@ -34,4 +34,4 @@ En el marco anterior, existe un trabajo para la elaboración de un repositorio d
 En los siguientes apartados de detalla la metodología empleada y se describe el dataset. A continuación se muestran los resultados y las conclusiones de este trabajo.
 
 ***
-#### [Atrás](index.md) -- [Índice](index.md) -- [Adelante](metodologia.md)
+#### [Atrás](index.md) -- [Índice](index.md) -- [Siguiente](metodologia.md)
