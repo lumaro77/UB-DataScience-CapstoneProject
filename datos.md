@@ -49,7 +49,10 @@ Este desbalanceo es palmario al realizar un histograma de frecuencia de todo el 
 ## Datos de entrenamiento y validación
 
 Este trabajo se considera una aproximación al problema presentado, con fines didácticos, por lo que tomé la decisión de aplicar los modelos a todo el dataset, reservando un 30% para validación.
+
 ![entrena-valida](datos/entrena-valida.png)
+
 Los datos son alimentados en el sistema via un objeto Dataset que toma las imágenes RGB y las resamplea a un tamaño 100x100 píxels, para facilitar el entrenamiento y para que el entorno de proceso fuera capaz de aceptar los datos sin exceder los límites de RAM.
+
 ***
 #### [Atrás](metodologia.md) -- [Índice](index.md) -- [Siguiente](resultados.md)
