@@ -97,6 +97,7 @@ El primero permite realizar gráficas, mientras que el segundo permite detener y
 
 Para este trabajo se ha empleado Google Colab para desarrollar y ejectuar los entrenamientos. Esta elección está motivada por no disponer de una GPU física en la que ejecutar el código en un plazo razonable.
 Cuando las metodologías y entrenamientos definitivos fueron definidos, se recurrió a una cuenta de pago Colab Pro, para garantizar un acceso preferencial a los recursos y permitir entrenamientos de cuantas epochs fueran necesarios.
+
 ![entorno](colab/entorno.png)
 ![gpu](colab/gpu.png)
 La persistencia de los entrenamientos se garantiza por el uso de Google-Drive en su versión gratuita para guardar los logs y los mejores modelos.
