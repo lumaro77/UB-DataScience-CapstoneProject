@@ -7,7 +7,8 @@
 - El modelo convoRGB, entrenado completamente con el dataset, presenta métricas entre 80% y 90% según se consideren todas las muestras o se evaluen por métrica y posteriormente se agregen.
 - Los modelos ResNet y DenseNet, que hacen uso de transferencia de conocimiento, obtiene resultados que no difieren sustancialmente de los obtenidos por ConvoRGB.
 - El dataset está muy desbalanceado, lo que compromete la mejora de resultados con estas u otras metodologías. Además, despierta cierto recelo sobre su exactitud, lo que de nuevo incidiría en la calidad del modelado.
-- Las redes neuronales artificiales parecen un instrumento adecuado para la clasificación de imágenes endoscópicas como las del dataset Kvasir-Capsule, con las limitaciones descritas.
+- Las redes neuronales artificiales parecen un instrumento adecuado para la clasificación de imágenes endoscópicas como las del dataset Kvasir-Capsule, con las limitaciones reseñadas previamente.
+- De las pruebas realizadas no se ha evidenciado una mejora significativa en los resultados derivados del uso de redes complejas y profundas preentrenadas previamente (transferencia de aprendizaje).
 
 # Perspectivas abiertas
 

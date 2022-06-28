@@ -5,7 +5,7 @@
 ## [Metodología](metodologia.md)
 ## [Datos](datos.md)
 ## [Resultados](resultados.md)
-## [Conclusiones](conclusiones.md)
+## [Conclusiones - Perspectivas](conclusiones.md)
 ## [Bibliografia](bibliografia.md) 
 ## [Contacto](contacto.md)
 
