@@ -84,6 +84,8 @@ Para los modelos propuestos estos son los parámetros empleados:
 | Tamaño de batch | 128 | 128 | 128 |
 | Número de epochs | 1.000 | 3.000 | 3.000 |
 
+La función que se minimiza (función de coste) es la CategoricalCrossentropy (entropía cruzada categórica), mientras que las métricas empleadas durante el ajuste son diversas, descatando la **CategoricalAccuracy** (exactitud categórica), **F1Score** (combina las medidas de precision y recall en un sólo valor) y el **MatthewsCorrelationCoefficient** (una medida no afectada por datasets desbalanceados).
+
 ## Tipos de callbacks
 
 Los callbacks son funciones que se ejecutan tras cada ejecución y que permiten diversos servicios o funcionalidades.
