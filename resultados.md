@@ -50,7 +50,9 @@ Si normalizamos la matriz de confusión respeto a los datos verdaderos para la r
 
 ![Matriz_confusion_2](convoRGB/convoRGB_matriz_confusion_2.png)
 
-Los mejores resultados se obtienen para la clase 7-Normal, así como las clases 1- 5- y 9-. Por su lado los peores resultados se obtienen para las clases 2- 3- y 6-
+Los mejores resultados se obtienen para la clase 7-Normal, así como las clases 1-Blood_fresh y 5-Ileocecal_valve . Por su lado los peores resultados se obtienen para las clases 2-Erosion 3-Erythematous y 6-Lymphangiectasia.
+
+Una mayor número de imágenes tiende a ayudar a mejores resultados procentuales, aunque las características de las lesiones o regiones fisiológicas parece definitiva, como la clase 1, que pese a estar poco presente obtiene buenos resultados.
 
 ## Resultado de transferencia de conocimiento con red ResNet
 
