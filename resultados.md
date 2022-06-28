@@ -59,9 +59,21 @@ Una mayor número de imágenes tiende a ayudar a mejores resultados procentuales
 La red convolucional que denominamos ResNet, se ajusta para sus parámetros libres según se ha descritos en los apartados anteriores con los siguientes resultados y métricas.
 
 ### Ajuste de red ResNet
+
+Las gráficas de accuracy muestran que la red basada en ResNet aprende a niveles superiores del 93% de los datos de entrenamiento, sin sobreentrenamiento. De hecho el entrenamiento se interrumpe quizás anticipadamente aunque tampoco sea posible obtener valores muy superiores.
+
 ![Plot_accuracy](resNet/resNet_categorical_accuracy.png)
+
+Las gráficas de accuracy y loss tienen los esperados comportamientos opuestos para el entrenamiento de la red ResNet.
+
 ![Plot_loss](resNet/resNet_loss.png)
+
+El coeficiente de Matthews para la validación roza el 85%, aproximadamente igual a los mejores resultados de la red ConvoRGB del primer apartado.
+
 ![Plot_Matthews](resNet/resNet_matthews.png)
+
+Los resultados de la red ResNet son numéricamente análogos a la red ConvoRGB, y aunque las gráficas parecen menos ruidosas, hay que tener presente la escala horizontal (una es 3 veces la otra).
+
 ### Precisiones con red ResNet
 ![Evaluacion](resNet/resNet_eval.png)
 ![Precision](resNet/resNet_accuracy.png)
