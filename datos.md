@@ -23,6 +23,7 @@ Las imágenes corresponden a regiones y lesiones del sistema digestivo humano. D
 ![Reduced_mucosal_view](datos/Reduced_mucosal_view.png)
 ![Ulcer](datos/Ulcer.png)
 
+Las imágenes son de un ámbito muy específico (campo de las ciencias de la salud) del que el autor se considera lego, más allá del sentido común. La simple inspección de las imágenes genera bastante confusión puesto que no es sencillo deducir la etiqueta asignada y surgen dudas (compatibles con la ignorancia en la materia) de la idoneidad del etiquetado.
 
 ## Análisis del dataset
 

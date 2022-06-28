@@ -75,13 +75,35 @@ El coeficiente de Matthews para la validación roza el 85%, aproximadamente igua
 Los resultados de la red ResNet son numéricamente análogos a la red ConvoRGB, y aunque las gráficas parecen menos ruidosas, hay que tener presente la escala horizontal (una es 3 veces la otra).
 
 ### Precisiones con red ResNet
+
+Se muestran a continuación los diversos indicadores estadísticos del ajuste de la red ResNet.
+
 ![Evaluacion](resNet/resNet_eval.png)
+
+Los valores obtenidos para la red ResNet no parecen diferir sustancialmente de los obtenidos por la red ConvoRGB. 
+
 ![Precision](resNet/resNet_accuracy.png)
 ![Report](resNet/resNet_report.png)
+
+De nuevo, como en el caso anterior, las métricas macro (calculadas por clase y posteriormente agrgadas) son peores que las micro (se toman todos los datos conjuntamente). Esto está indicando que los modelos no resuelven bien las clases poco representadas.
+
 ### Matriz de confusión con red ResNet
+
+La matriz de confusión con los datos de validación para la red ResNet tiene los siguientes valores:
+
 ![Matriz_confusion_0](resNet/resNet_matriz_confusion_0.png)
+
+La matriz de confusión con los datos de validación para la red ResNet representada gráficamente queda como:
+
 ![Matriz_confusion_1](resNet/resNet_matriz_confusion_1.png)
+
+Si normalizamos la matriz de confusión respeto a los datos verdaderos para la red ResNet queda como:
+
 ![Matriz_confusion_2](resNet/resNet_matriz_confusion_2.png)
+
+Los mejores resultados se obtienen para la clase 7-Normal, así como las clases 9-Reduced_mucosal_view y 1-Blood_fresh. Por su lado los peores resultados se obtienen para las clases  3-Erythematous, 2-Erosion y 8-Pylorus.
+
+La semejanza de los resultados con los anteriores ratifica qeu una mayor número de imágenes tiende a ayudar a mejores resultados procentuales, aunque las características de las lesiones o regiones fisiológicas siguen siendo definitivas.
 
 ## Resultado de transferencia de conocimiento con red DenseNet
 
@@ -96,8 +118,22 @@ La red convolucional que denominamos DenseNet, como el caso anterior, se ajusta 
 ![Precision](denseNet/denseNet_accuracy.png)
 ![Report](denseNet/denseNet_report.png)
 ### Matriz de confusión con red DenseNet
+
+La matriz de confusión con los datos de validación para la red DenseNet tiene los siguientes valores:
+
 ![Matriz_confusion_0](denseNet/denseNet_matriz_confusion_0.png)
+
+La matriz de confusión con los datos de validación para la red DenseNet representada gráficamente queda como:
+
 ![Matriz_confusion_1](denseNet/denseNet_matriz_confusion_1.png)
+
+Si normalizamos la matriz de confusión respeto a los datos verdaderos para la red DenseNet queda como:
+
 ![Matriz_confusion_2](denseNet/denseNet_matriz_confusion_2.png)
+
+Los mejores resultados se obtienen para la clase 7-Normal, así como las clases 9-Reduced_mucosal_view y 5-Ileocecal_valve. Por su lado los peores resultados se obtienen para las clases 3-Erythematous, 2-Erosion y 6-Lymphangiectasia.
+
+Las clases peor clasificadas re repiten para todos los modelos, pero para las mejores clases la 7-Normal siempre domina al resto.
+
 ***
 #### [Atrás](datos.md) -- [Índice](index.md) -- [Siguiente](conclusiones.md)
