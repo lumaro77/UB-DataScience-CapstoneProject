@@ -110,13 +110,32 @@ La semejanza de los resultados con los anteriores ratifica qeu una mayor número
 La red convolucional que denominamos DenseNet, como el caso anterior, se ajusta para sus parámetros libres según se ha descritos en los apartados anteriores con los siguientes resultados y métricas.
 
 ### Ajuste de red DenseNet
+
+Las gráficas de accuracy muestran que la red basada en DenseNet aprende a niveles del 93% de los datos de entrenamiento, sin sobreentrenamiento. En este caso el entrenamiento parece suficiente porque las gráficas son bastante planas al final del mismo. 
+
 ![Plot_accuracy](denseNet/denseNet_categorical_accuracy.png)
+
+El loss se comporta como es esperado, aunque su valor absoluto sea complejo de interpretar, almenos más que la accuracy.
+
 ![Plot_loss](denseNet/denseNet_loss.png)
+
+El coeficiente de Matthews con DenseNet reproduce lo observadado para ResNet, con valores muy similares y compatibles con ResNet e incluso ConvoRGB.
+
 ![Plot_Matthews](denseNet/denseNet_matthews.png)
+
 ### Precisiones con red DenseNet
+
+Se muestran a continuación los diversos indicadores estadísticos del ajuste de la red DenseNet.
+
 ![Evaluacion](denseNet/denseNet_eval.png)
+
+Los resultados de la evaluación con DenseNet es similar a las anteriores. Valores superiores al 90% para todas las muestras que se reducen a valores del 80% si se toman en consideración las clases (algunas de ellas muy sub-representadas en el dataset)
+
 ![Precision](denseNet/denseNet_accuracy.png)
 ![Report](denseNet/denseNet_report.png)
+
+El resto de métricas muestran comportamiento similar a los modelos ConvoRGB y ResNet, con resultados que no difieren suficientemente como para establecer jerarquías entre los modelos.
+
 ### Matriz de confusión con red DenseNet
 
 La matriz de confusión con los datos de validación para la red DenseNet tiene los siguientes valores:
