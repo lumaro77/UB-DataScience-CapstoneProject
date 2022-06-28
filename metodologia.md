@@ -86,6 +86,8 @@ Para los modelos propuestos estos son los parámetros empleados:
 
 La función que se minimiza (función de coste) es la CategoricalCrossentropy (entropía cruzada categórica), mientras que las métricas empleadas durante el ajuste son diversas, descatando la **CategoricalAccuracy** (exactitud categórica), **F1Score** (combina las medidas de precision y recall en un sólo valor) y el **MatthewsCorrelationCoefficient** (una medida no afectada por datasets desbalanceados).
 
+Adicionalmente se realizan otros análisis de precisión, así como una matriz de confusión.
+
 ## Tipos de callbacks
 
 Los callbacks son funciones que se ejecutan tras cada ejecución y que permiten diversos servicios o funcionalidades.

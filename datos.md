@@ -28,19 +28,19 @@ Las imágenes corresponden a regiones y lesiones del sistema digestivo humano. D
 
 El número de imágenes presente en todo el dataset oculta la incómoda realidad de muchos datasets: desbalanceo entre clases, es decir, no hay la misma cantidad de imágenes para cada clase.
 
-| Clase | Número de muestras |
-| ------------- | ------------- |
-| Angiectasia | 866 |
-| Blood_fresh | 446 |
-| Erosion | 506 |
-| Erythematous | 159 |
-| Foreign_body | 776 |
-| Ileocecal_valve | 4189 |
-| Lymphangiectasia | 592 |
-| Normal | 34.338 |
-| Pylorus | 1529 |
-| Reduced_mucosal_view | 2906 |
-| Ulcer | 854 |
+| Id | Clase | Número de muestras |
+| ------------- | ------------- | ------------- |
+| 0 | Angiectasia | 866 |
+| 1 | Blood_fresh | 446 |
+| 2 | Erosion | 506 |
+| 3 | Erythematous | 159 |
+| 4 | Foreign_body | 776 |
+| 5 | Ileocecal_valve | 4189 |
+| 6 | Lymphangiectasia | 592 |
+| 7 | Normal | 34.338 |
+| 8 | Pylorus | 1529 |
+| 9 | Reduced_mucosal_view | 2906 |
+| 10 | Ulcer | 854 |
 
 Este desbalanceo es palmario al realizar un histograma de frecuencia de todo el dataset.
 

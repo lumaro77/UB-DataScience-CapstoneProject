@@ -5,6 +5,8 @@
 
 ## Resultados con red convolucional simple ConvoRGB
 
+La red convolucional simple, que denominamos ConvoRGB, se ajusta para todos sus parámetros, según los parámetros y el dataset descritos en los apartados anteriores con los siguientes resultados y métricas.
+
 ### Ajuste de red convolucional simple ConvoRGB
 ![Plot_accuracy](convoRGB/convoRGB_categorical_accuracy.png)
 ![Plot_loss](convoRGB/convoRGB_loss.png)
