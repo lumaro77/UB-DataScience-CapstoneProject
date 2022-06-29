@@ -17,8 +17,9 @@
 
 - Codificando bits. [link](https://www.youtube.com/c/codificandobits)
 
-- Sensio. [link](https://www.youtube.com/c/sensio-ia)
+- Ringa Tech. [link](https://www.youtube.com/c/RingaTech)
 
+- Sensio. [link](https://www.youtube.com/c/sensio-ia)
 
 ***
 #### [Atrás](conclusiones.md) -- [Índice](index.md) -- [Siguiente](contacto.md)
