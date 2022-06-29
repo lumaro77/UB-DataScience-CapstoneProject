@@ -6,7 +6,7 @@
 ## [Datos](datos.md)
 ## [Resultados](resultados.md)
 ## [Conclusiones - Perspectivas](conclusiones.md)
-## [Bibliografia](bibliografia.md) 
+## [Bibliografía](bibliografia.md) 
 ## [Contacto](contacto.md)
 
 ***
