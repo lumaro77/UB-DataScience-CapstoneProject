@@ -21,4 +21,7 @@ when evaluating:
 ## Report
 Report will be available at: https://lumaro77.github.io/UB-DataScience-CapstoneProject/
 
+## Presentation
+Available at **[pretentacion/](/presentacion/)** and **[youtube](https://youtu.be/eoZop9FM8XM)**
+
 Barcelona, June 2022.
