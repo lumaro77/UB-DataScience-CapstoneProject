@@ -9,7 +9,7 @@ La red convolucional simple, que denominamos ConvoRGB, se ajusta para todos sus 
 
 ### Ajuste de red convolucional simple ConvoRGB
 
-Las gráficas de accuracy muestran que la red aprende a niveles superiores del 90% de los datos de entrenamiento, pero presenta rápidamente un sobreentrenamiento (overfitting) leve porque los datos sobre el dataset de validación empeora con las epochs.
+Las gráficas de accuracy muestran que la red aprende a niveles superiores del 90% de los datos de entrenamiento, pero presenta rápidamente un sobreentrenamiento (overfitting) leve porque los resultados en el dataset de validación empeoran con las epochs.
 
 ![Plot_accuracy](convoRGB/convoRGB_categorical_accuracy.png)
 
@@ -21,7 +21,7 @@ Las gráficas del coeficiente de Matthews validan lo observado en las anteriores
 
 ![Plot_Matthews](convoRGB/convoRGB_matthews.png)
 
-En relación a lo anterior, hay que indicar que los callbacks permiten guardar cada modelo o solo los mejores, por lo que es posible resolver problemas de sobreentrenamiento (por el dataset o la configuración) reiniciando el entrenamiento con una mejor configuración del sistema, salvaguardando los resultados alcanzados previamente.
+En relación a lo anterior, hay que indicar que los callbacks permiten guardar cada modelo o solo los mejores (se configuró de esta manera), por lo que es posible resolver problemas de sobreentrenamiento (por el dataset o la configuración) reiniciando el entrenamiento con una mejor configuración del sistema, salvaguardando los resultados alcanzados previamente.
 
 ### Precisiones con red convolucional simple ConvoRGB
 
@@ -60,7 +60,7 @@ La red convolucional que denominamos ResNet, se ajusta para sus parámetros libr
 
 ### Ajuste de red ResNet
 
-Las gráficas de accuracy muestran que la red basada en ResNet aprende a niveles superiores del 93% de los datos de entrenamiento, sin sobreentrenamiento. De hecho el entrenamiento se interrumpe quizás anticipadamente aunque tampoco sea posible obtener valores muy superiores.
+Las gráficas de accuracy muestran que la red basada en ResNet aprende a niveles superiores del 93% de los datos de entrenamiento, sin sobreentrenamiento. De hecho el entrenamiento se interrumpe quizás anticipadamente aunque tampoco parece que sea posible obtener valores muy superiores.
 
 ![Plot_accuracy](resNet/resNet_categorical_accuracy.png)
 
@@ -85,7 +85,7 @@ Los valores obtenidos para la red ResNet no parecen diferir sustancialmente de l
 ![Precision](resNet/resNet_accuracy.png)
 ![Report](resNet/resNet_report.png)
 
-De nuevo, como en el caso anterior, las métricas macro (calculadas por clase y posteriormente agrgadas) son peores que las micro (se toman todos los datos conjuntamente). Esto está indicando que los modelos no resuelven bien las clases poco representadas.
+De nuevo, como en el caso anterior, las métricas macro (calculadas por clase y posteriormente agregadas) son peores que las micro (se toman todos los datos conjuntamente). Esto está indicando que los modelos no resuelven bien las clases poco representadas.
 
 ### Matriz de confusión con red ResNet
 
@@ -103,7 +103,7 @@ Si normalizamos la matriz de confusión respeto a los datos verdaderos para la r
 
 Los mejores resultados se obtienen para la clase 7-Normal, así como las clases 9-Reduced_mucosal_view y 1-Blood_fresh. Por su lado los peores resultados se obtienen para las clases  3-Erythematous, 2-Erosion y 8-Pylorus.
 
-La semejanza de los resultados con los anteriores ratifica qeu una mayor número de imágenes tiende a ayudar a mejores resultados procentuales, aunque las características de las lesiones o regiones fisiológicas siguen siendo definitivas.
+La semejanza de los resultados con los anteriores ratifica que una mayor número de imágenes tiende a generar mejores resultados procentuales, aunque las características de las lesiones o regiones fisiológicas concretas a identificar siguen siendo definitivas.
 
 ## Resultado de transferencia de conocimiento con red DenseNet
 
@@ -115,7 +115,7 @@ Las gráficas de accuracy muestran que la red basada en DenseNet aprende a nivel
 
 ![Plot_accuracy](denseNet/denseNet_categorical_accuracy.png)
 
-El loss se comporta como es esperado, aunque su valor absoluto sea complejo de interpretar, almenos más que la accuracy.
+El loss se comporta como es esperado, aunque su valor absoluto sea complejo de interpretar en terminos absolutos, almenos más que la accuracy.
 
 ![Plot_loss](denseNet/denseNet_loss.png)
 
@@ -134,7 +134,7 @@ Los resultados de la evaluación con DenseNet es similar a las anteriores. Valor
 ![Precision](denseNet/denseNet_accuracy.png)
 ![Report](denseNet/denseNet_report.png)
 
-El resto de métricas muestran comportamiento similar a los modelos ConvoRGB y ResNet, con resultados que no difieren suficientemente como para establecer jerarquías entre los modelos.
+El resto de métricas muestran comportamiento similar a los modelos ConvoRGB y ResNet, con resultados que no difieren suficientemente como para establecer jerarquías entre los tres modelos.
 
 ### Matriz de confusión con red DenseNet
 
@@ -152,7 +152,7 @@ Si normalizamos la matriz de confusión respeto a los datos verdaderos para la r
 
 Los mejores resultados se obtienen para la clase 7-Normal, así como las clases 9-Reduced_mucosal_view y 5-Ileocecal_valve. Por su lado los peores resultados se obtienen para las clases 3-Erythematous, 2-Erosion y 6-Lymphangiectasia.
 
-Las clases peor clasificadas re repiten para todos los modelos, pero para las mejores clases la 7-Normal siempre domina al resto.
+Las clases peor identificadas se repiten para todos los modelos, mientras que la clase mejor identificada es siempre la 7-Normal, que como se comentó, está sobrerepresentada en el dataset.
 
 ***
 #### [Atrás](datos.md) -- [Índice](index.md) -- [Siguiente](conclusiones.md)
